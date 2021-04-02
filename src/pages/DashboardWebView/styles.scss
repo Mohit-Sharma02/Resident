@@ -1,0 +1,99 @@
+.invite_title {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #253947;
+}
+
+.invite_description {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+  color: #253947;
+}
+.MuiDialogTitle-root {
+  padding: 0 !important;
+}
+
+.MuiTypography-root {
+  margin: 0;
+}
+
+.MuiDialog-paper .MuiDialogTitle-root {
+  border-bottom: #ffff;
+}
+
+.MuiDialog-paper {
+  margin: 15px !important;
+  position: relative;
+  overflow-y: auto;
+}
+
+.custom_grid {
+  flex: auto;
+  max-width: 25%;
+  padding: 10px;
+}
+
+@media (max-width: 1600px) {
+  .custom_grid {
+    flex: auto;
+    max-width: 50%;
+    padding: 10px;
+    width: 50%;
+    .card-box {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+@media (min-width: 1350px) and (max-width: 1850px) {
+  .custom_grid {
+    flex: auto;
+    max-width: 50% !important;
+    padding: 10px;
+    width: 50%;
+    flex-basis: 50% !important;
+  }
+}
+@media (max-width: 767px) {
+  .custom_grid {
+    flex: auto;
+    max-width: 100% !important;
+    padding: 10px;
+    width: 100%;
+    flex-basis: 100% !important;
+  }
+  .custom_w30 .CircularProgressbar {
+    margin: 0 !important;
+  }
+
+  .MuiButton-text {
+    padding: 8px;
+    font-size: 11px;
+    margin-left: 12px !important;
+  }
+
+  .text-dark {
+    color: #8999a4;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Spartan;
+    font-style: normal;
+  }
+}
+.main-head {
+  color: #000000 !important ;
+}
+.text-head {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #253947;
+  font-style: normal;
+  letter-spacing: 0.25px;
+}

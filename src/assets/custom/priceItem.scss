@@ -1,0 +1,197 @@
+@import './variables';
+
+.price-item {
+  position: relative;
+  z-index: 13;
+  min-width: 194px;
+  cursor: pointer;
+  margin-top: 50px;
+  .allow_click, .card-box {
+    border: 0px !important;
+    .accordion-icon {
+      color: $primary;
+      margin-right: 20px;
+    }
+  }
+  .item-accordion-text {
+    flex: 1;
+  }
+  .tooltip {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    background-color:#fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 0px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+    width: 200px;
+    @media only screen and (max-width: 540px) {
+      width: 100%;
+    }
+    .title {
+      background: $primary;
+      width: 100%;
+      color: white !important;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 30px;
+      display: block;
+      line-height: 18px !important;
+      padding: 5px 0;
+    }
+    .table {
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      div {
+        flex-direction: row;
+        display: flex;
+        span {
+          display: inline-block;
+          flex: 1;
+          font-size: 12px;
+          line-height: 25px;
+        }
+      }
+      .head {
+        span {
+          text-transform: uppercase;
+          color: $primary;
+        }
+      }
+      div:nth-last-child(even) {
+        background-color: $primary-hover;
+      }
+    }
+  }
+  .tip {
+    opacity: 1;
+    cursor: pointer;
+    &::before {
+      display: none;
+    }
+    &::after {
+      display: none;
+    }
+  }
+  .price-logo {
+    margin-top: -40px;
+    svg {
+      width: 50px;
+      height: 50px;
+      fill: $secondary !important;
+    }
+  }
+  .card-content {
+    overflow: initial !important;
+    .MuiCardContent-root {
+      padding: 15px 0px !important;
+    }
+  }
+  .top-info {
+    margin: 0 10px;
+  }
+  .box-card-border {
+    border-color: $blue !important;
+    border-width: 2px !important;
+
+    .price-logo {
+      margin-top: -47px;
+      svg {
+        width: 60px;
+        height: 60px;
+        opacity: 1 !important;
+      }
+    }
+  }
+  .title {
+    font-weight: 500 !important;
+    color: $text-primary !important;
+    font-size: 20px;
+    margin-bottom: 6px !important;
+  }
+  .title-selected {
+    font-weight: 700 !important;
+    color: $blue !important;
+    font-size: 24px;
+    margin-bottom: 6px !important;
+  }
+  .price {
+    color: $secondary !important;
+    font-size: 34px;
+    span {
+      font-weight: 400 !important;
+      color: $secondary !important;
+      font-size: 14px;
+    }
+  }
+  .price-selected {
+    color: $blue !important;
+    font-size: 42px;
+    font-weight: 700 !important;
+  }
+  .text {
+    color: $text-primary;
+    font-size: 14px;
+    padding: 8px 0 10px 0;
+    display: block;
+    height: 56px;
+    line-height: 18px;
+  }
+  .price-options-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    padding: 10px;
+    list-style: none;
+    min-height: 200px;
+    @media only screen and (max-width: 1099px) {
+      min-height: initial;
+    }
+    li {
+      width: 100%;
+    }
+    .price-options-item {
+      display: flex;
+      align-items: flex-start;
+      font-weight: 300;
+      margin: 0px;
+      padding: 0px;
+      font-size: 14px;
+      margin: 5px 10px;
+      list-style: none;
+      height: 20px;
+      width: 100%;
+      border: 0px !important;
+      .icon {
+        margin-right: 10px;
+      }
+    }
+    .all-and-more {
+      margin: 25px 10px 5px 10px;
+      list-style: none;
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-disabled;
+      text-transform: uppercase;
+    }
+  }
+
+  .accordion-content {
+    .tooltip {
+      border-radius: 0;
+      padding: 8px;
+      border: 0px;
+      margin: 10px 0;
+      width: 100%;
+      .title {
+        padding: 5px 5px;
+      }
+    }
+  }
+}

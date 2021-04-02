@@ -1,0 +1,94 @@
+@import '../../assets/custom/colors';
+@import '../../assets/custom/typography';
+
+.desktop {
+  display: none;
+  .MuiDrawer-paperAnchorRight .customdrawer {
+    overflow: hidden;
+  }
+  @media (min-width: 992px) {
+    display: block;
+  }
+}
+
+.desktop-drawer {
+  width: 25vw;
+  .MuiDrawer-paperAnchorRight .customdrawer {
+    overflow-y: hidden;
+  }
+}
+.description {
+  color: #757575;
+}
+.mobile {
+  display: none;
+
+  @media (max-width: 992px) {
+    display: block;
+  }
+}
+
+.table-mobile {
+  .name {
+    @include text;
+    color: $baseline-text-primary;
+  }
+
+  .role {
+    @include bottomnav;
+    color: $baseline-text-primary;
+  }
+
+  .accordion {
+    .MuiCard-root {
+      .card-header {
+        .accordion-toggle {
+          button:hover {
+            background: $primary-white !important;
+          }
+
+          button {
+            background: $primary-white !important;
+          }
+        }
+      }
+
+      .card-footer {
+        button {
+          @include bottomnav;
+          height: 28px;
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  nav {
+    button {
+      color: $primary-main;
+
+      &.MuiPaginationItem-root {
+        @include h6;
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
+}
+
+.search-wrapper {
+  .MuiTextField-root {
+    border-radius: 4px;
+    background: $secondary-selected;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: transparent;
+  }
+}
+
+.department-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

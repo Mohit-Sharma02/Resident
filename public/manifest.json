@@ -1,0 +1,72 @@
+{
+  "short_name": "Citycare",
+  "name": "Citycare",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1976D2",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "shortcuts": [
+    {
+      "name": "Residents",
+      "url": "en/residents",
+      "icons": [
+        {
+          "src": "resident.png",
+          "type": "image/png",
+          "sizes": "192x192",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Resident Posts",
+      "url": "en/resident-posts",
+      "icons": [
+        {
+          "src": "resident_post.png",
+          "type": "image/png",
+          "sizes": "192x192",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Employees",
+      "url": "en/employees",
+      "icons": [
+        {
+          "src": "employee.png",
+          "type": "image/png",
+          "sizes": "192x192",
+          "purpose": "any"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "citycare_desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "citycare_mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}

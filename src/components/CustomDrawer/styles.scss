@@ -1,0 +1,51 @@
+@import '../../assets/custom/colors';
+@import '../../assets/custom/typography';
+
+.MuiDrawer-paperAnchorRight {
+  // overflow-y: visible;
+
+  @media (max-width: 460px) {
+    width: 100%;
+  }
+
+  // .customdrawer {
+  //   overflow-y: scroll;
+  // }
+
+  h5 {
+    @include h5;
+    color: $baseline-text-primary;
+  }
+
+  .title {
+    padding: 63px 60px 10px;
+
+    @media (max-width: 360px) {
+      padding: 63px 25px 10px;
+    }
+  }
+
+  .MuiButton-contained {
+    @include button;
+    box-shadow: none;
+    height: 56px;
+
+    &.btn-dark {
+      background: $secondary-selected;
+      color: $baseline-text-secondary;
+      border: 1px solid rgba(0, 0, 0, 0.38);
+    }
+  }
+  .nav-title {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.drawer_width > div.MuiDrawer-paperAnchorRight {
+  width: 30%;
+}

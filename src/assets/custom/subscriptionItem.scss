@@ -1,0 +1,23 @@
+@import './variables';
+
+.item-header {
+  height: 130px;
+}
+.flex1 {
+  flex: 1;
+}
+.font-size10 {
+  font-size: 10px;
+}
+.font-size11 {
+  font-size: 11px;
+}
+.font-size24 {
+  font-size: 24px;
+}
+.font-size12 {
+  font-size: 12px;
+}
+.disable {
+  color: $disable;
+}

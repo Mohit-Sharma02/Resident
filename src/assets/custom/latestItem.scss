@@ -1,0 +1,30 @@
+@import './variables';
+.flex-1 {
+  flex: 1;
+}
+.height-110 {
+  height: 110px;
+}
+.like-dislike-latest {
+  margin-left: 20px;
+  .btn-link {
+    position: relative;
+    width: 30px;
+    .total-like {
+      background: $blue;
+      color: white;
+      border-radius: 50%;
+      border: solid 1px white;
+      display: flex;
+      width: 20px;
+      height: 20px;
+      font-size: 9px;
+      font-weight: bold;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: -24px;
+      top: -8px;
+    }
+  }
+}

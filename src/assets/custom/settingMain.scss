@@ -1,0 +1,69 @@
+@import './variables';
+.section-header {
+  font-family: Spartan;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  color: $black;
+  /* identical to box height */
+  letter-spacing: 0.25px;
+}
+
+.setting_title {
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $grey-light;
+}
+.custom_w100 {
+  width: 100%;
+}
+
+.custom_w30 {
+  width: 30%;
+}
+
+.setting_card {
+  height: 85%;
+}
+
+.vl-m {
+  vertical-align: middle;
+}
+
+.setting-route {
+  padding: 1rem 0.25rem;
+}
+
+.setting_menu_data {
+  font-weight: 600;
+  color: $greyish-blue;
+}
+@media only screen and (min-width: 1366px) {
+  .menu_sub {
+    font-weight: 500;
+    font-size: 16px !important;
+    margin-top: 0rem !important;
+    color: $blue;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .menu_sub {
+    font-weight: 500;
+    font-size: 12px !important;
+    margin-top: 0.25rem !important;
+    color: $blue;
+  }
+  .app-sidebar {
+    width: 260px;
+  }
+  .app-header-fixed .app-header {
+    left: 0px;
+  }
+  .app-sidebar-fixed .app-content {
+    padding-left: 260px;
+  }
+  .sidebar-top {
+    margin-top: 80px;
+  }
+}

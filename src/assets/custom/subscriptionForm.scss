@@ -1,0 +1,31 @@
+@import './variables';
+
+.form-input {
+  width: 100%;
+  .MuiGrid-root {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  &.margin-left {
+    padding-left: 10px;
+  }
+  &.margin-right {
+    padding-right: 10px;
+  }
+  .MuiFormLabel-root, .MuiFormLabel-root.Mui-focused {
+    color: $grey-light;
+  }  
+  .MuiInput-underline:before {
+    border-color: #E0E0E0;
+  }
+  .MuiInput-underline:after {
+    border-color: #000000;
+  }
+  .MuiInput-input {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}

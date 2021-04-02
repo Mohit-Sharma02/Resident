@@ -1,0 +1,123 @@
+// Core
+
+@import 'core';
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500&display=swap');
+
+// Widgets
+
+@import 'widgets';
+
+// Components
+
+@import 'components';
+
+// Layout Components
+
+@import 'layout-components';
+
+// Layout Blueprints
+
+@import 'layout-blueprints';
+
+// Custom
+
+@import 'custom/colors';
+@import 'custom/typography';
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.setting_head_title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8999a4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.drawer_heading {
+  color: #cad6de !important;
+}
+.styles_label__Ym_84 {
+  color: #253947;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.styles_toggleButton__2etU_ {
+  color: #253947 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.table-heading tr th {
+  color: #253947;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.table-heading tr td span {
+  color: #253947;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.table-contain-head {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8999a4;
+}
+
+.icon-height {
+  min-height: 30px !important;
+}
+
+.drawer_title {
+  color: #253947;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+
+.drawer-content {
+  padding-left: 1.5rem;
+  padding-right: 2.5rem;
+}
+
+.pop-img {
+  height: 30vh;
+  width: 40vw;
+}
+
+.custom-margin {
+  margin: 20%;
+}
+
+.MuiDrawer-paper {
+  overflow-x: hidden !important;
+}
+
+.MuiListItem-root.Mui-selected,
+.MuiListItem-root.Mui-selected:hover {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}

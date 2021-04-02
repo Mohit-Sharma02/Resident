@@ -1,0 +1,14 @@
+.avatarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avatarNameContainer {
+  margin-left: 15px;
+}
+
+.avatarName {
+}
+
+.avatarDate {
+}

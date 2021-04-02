@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -7px;
+    background-color: #ccc;
+    border-radius: 50%;
+    left: 20px;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    bottom: 0;
+  }
+}
+
+.containerItems {
+  &:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+  }
+}

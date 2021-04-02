@@ -1,0 +1,100 @@
+.todo-item {
+  flex: 1;
+  display: flex;
+  line-height: 30px;
+  svg {
+    line-height: 30px;
+    margin-top: 5px;
+  }
+}
+
+.border-class {
+  border: 2px solid #cad6de;
+  border-radius: 5px;
+}
+
+.add_button {
+  padding: 3px;
+  color: white;
+  background: #1bc943;
+  box-shadow: 1px 3px 9px rgba(27, 88, 183, 0.3);
+  border-radius: 4px;
+}
+.add_button:hover {
+  color: white;
+  background: #1bc943;
+}
+.green-button .add_button {
+  margin-right: 15px;
+}
+.green-button {
+  color: #1976d2;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.upload-icon-text {
+  color: #1976d2;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  display: flex;
+  vertical-align: middle;
+  line-height: 45px;
+  svg {
+    margin-top: 15px;
+  }
+}
+
+.pointer-event {
+  cursor: pointer;
+}
+
+.fix_height {
+  min-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.MuiDrawer-paper {
+  overflow-x: hidden !important;
+}
+
+.thumbsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.thumb {
+  display: inline-flex;
+  border-radius: 2px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.thumbInner {
+  position: relative;
+  display: flex;
+  min-width: 0px;
+  overflow: hidden;
+}
+
+.thumbInner .btn {
+  top: 15%;
+  right: 0%;
+  transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -50%);
+  color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}

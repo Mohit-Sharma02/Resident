@@ -1,0 +1,11 @@
+@import './variables';
+.map-checkbox {
+  justify-content: space-between !important;
+  flex: 1;
+}
+.checkbox-icon {
+  display: flex;
+}
+.title-color {
+  color: $greyish-blue !important;
+}
